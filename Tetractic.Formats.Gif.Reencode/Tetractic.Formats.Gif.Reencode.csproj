@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+
+    <Features>strict</Features>
+    <Nullable>enable</Nullable>
+    <WarningLevel>9999</WarningLevel>
+
+    <AnalysisMode>Recommended</AnalysisMode>
+    <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+    <EnableCodeStyleSeverity>true</EnableCodeStyleSeverity>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Tetractic.Formats.Gif\Tetractic.Formats.Gif.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Tetractic.CommandLine" Version="1.2.0" />
+  </ItemGroup>
+
+</Project>
