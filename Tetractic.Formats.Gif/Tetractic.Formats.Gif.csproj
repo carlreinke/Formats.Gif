@@ -11,8 +11,8 @@
     <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
     <EnableCodeStyleSeverity>true</EnableCodeStyleSeverity>
 
-    <VersionPrefix>2.0.0</VersionPrefix>
-    <VersionSuffix></VersionSuffix>
+    <VersionPrefix>2.0.1</VersionPrefix>
+    <VersionSuffix>preview</VersionSuffix>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
     <FileVersion>$(VersionPrefix)</FileVersion>
     <InformationalVersion>$(VersionPrefix)</InformationalVersion>
